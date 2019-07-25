@@ -16,6 +16,8 @@ ActiveRecord::Schema.define(version: 2019_07_24_020939) do
   enable_extension "plpgsql"
 
   create_table "quotes", force: :cascade do |t|
+    t.string "saying"
+    t.string "author"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
