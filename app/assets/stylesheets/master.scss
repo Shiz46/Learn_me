@@ -1,3 +1,4 @@
+
 @import "bootstrap";
 
 .clear {
@@ -43,8 +44,11 @@
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px solid #f79292
+  border-bottom: 1px solid #f79292p;
+  font-family: 'milkshakeregular', serif;
+  font-weight:bold
 }
+
 
 
 header {
@@ -54,3 +58,17 @@ header {
 hr{
   clear:both;
 }
+
+h1 {
+  font-family: 'milkshakeregular', serif;
+  font-weight:bold;
+  font-size:48px;
+  
+}
+
+h2 {
+  font-family: 'milkshakeregular', serif;
+  
+}
+
+
