@@ -71,6 +71,11 @@ h2 {
   
 }
 
+h2 span { 
+color:#dddddd;
+font-family: 'milkshakeregular', serif;
+}
+
 .next-quote {
   color:#f84342;
   font-family: 'milkshakeregular',serif;
@@ -93,5 +98,19 @@ font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dej
 
 .about {
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb{
+    text-align: left;
+
+  }
+}
+
+.modal {  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
 }
 
